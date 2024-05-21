@@ -76,86 +76,8 @@
 
     </section><!-- /Hero Section -->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
 
-      <div class="container" data-aos="zoom-in">
-
-        <div class="swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 120
-                },
-                "1200": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-         
-
-    </section><!-- /Clients Section -->
-
-    <!-- About Section -->
-   <!-- /About Section -->
-
-    <!-- Why Us Section -->
     
-   
-
-  <!-- /Why Us Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-
-          
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
-
-            
-
-            <div class="skills-content skills-animation">
-
-              </div><!-- End Skills Item -->
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
 
     <!-- Services Section -->
     
@@ -207,20 +129,19 @@
               <h4><a href="service-details.html" class="stretched-link">regular chekings</a></h4>
               <p>daily chekings .its improve the performance of services.</p>
             </div>
-          </div>
+          </div>z
 
     </section><!-- /Services Section -->
 
-    <!-- Call To Action Section -->
+    
    
-    <!-- Portfolio Section -->
-    <section id="about" class="about section">
+    
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2 class="">About Us</h2>
         <div>
-          <img src="./im7.jpg" width="700" height="300" alt="">
+          <img src="./im7.jpg" width="600" height="300" alt="">
         </div>
       </div><!-- End Section Title -->
 
@@ -245,12 +166,8 @@
         </div>
       </div>
     </section>
-    <section id="portfolio" class="portfolio section">
-
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+     <!-- Contact Section -->
+     <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -267,13 +184,12 @@
             <div class="info-wrap">
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div style="text-align: center;">
+                <div>
                   <h3>Address</h3>
                   <p>#27/10/813/5, Nawabpeta,
                     Narkur Road Nayee Brahmina
                     Kalyana Mandapam Backside Street,
-                    Nellore - 524002(A.P).
-                  </p>
+                    Nellore - 524002(A.P).</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -281,9 +197,7 @@
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Call Us</h3>
-                  <p>8688106557 | 8885363808
-
-                  </p>
+                  <p>8688106557 | 8885363808</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -294,18 +208,45 @@
                   <p>tractionlifts@gmail.com</p>
                 </div>
               </div><!-- End Info Item -->
+              
+          
+          
+          
 
               
             </div>
           </div>
 
-          
-                
-                
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
 
-                
-               
-                  
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
                 </div>
 
               </div>
@@ -315,16 +256,13 @@
         </div>
 
       </div>
+      
+    
 
-    </section><!-- /Contact Section -->
+             
+            
 
-  </main>
-
-  
-        </div>
-
-      </div>
-    </div>
+ 
 
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Traction Lifts</strong> <span>All Rights Reserved</span></p>
